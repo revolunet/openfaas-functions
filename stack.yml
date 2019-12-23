@@ -7,4 +7,9 @@ functions:
     lang: node12
     handler: ./helloworld
     image: revolunet/helloworld:latest
+  ascii:
+    lang: node12
+    handler: ./ascii
+    image: revolunet/ascii:latest
+
 
