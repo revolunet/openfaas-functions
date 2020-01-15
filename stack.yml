@@ -11,5 +11,9 @@ functions:
     lang: node12
     handler: ./ascii
     image: revolunet/ascii:latest
+  dumdum:
+    lang: node12
+    handler: ./dumdum
+    image: revolunet/dumdum:latest
 
 
