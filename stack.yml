@@ -15,5 +15,9 @@ functions:
     lang: node12
     handler: ./dumdum
     image: revolunet/dumdum:latest
+  password:
+    lang: node12
+    handler: ./password
+    image: revolunet/password:latest
 
 
