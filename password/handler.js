@@ -9,7 +9,7 @@ const getRequest = async (event, context) => {
     numbers: true,
     symbols: true,
     excludeSimilarCharacters: true,
-    exclude: "#^'\"()[]:@<>%"
+    exclude: "#^'\"/&?`()[]:@<>%"
   });
 
   context.status(200).succeed({
